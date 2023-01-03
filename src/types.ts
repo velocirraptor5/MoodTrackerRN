@@ -3,3 +3,8 @@ export type MoodOptionType = {
 	description: string;
 	id: number;
 };
+
+export type MoodOptionTimestamp = {
+	mood: MoodOptionType;
+	timestamp: number;
+};
